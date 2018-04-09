@@ -1,0 +1,17 @@
+* {
+  margin: 5px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+p {
+  color: black;
+}
+
+body {
+	background-color: skyblue;
+}
