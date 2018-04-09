@@ -665,13 +665,11 @@ void displayRings(i) {
 					if (aircrafts[j].loc && aircrafts[j].ilsDist <= 10 * nm_to_px) {
 						if (separationDistPx < 2.5 * nm_to_px && separationAlt <= 900) {
 							stroke(255, 0, 0);
-							console.log(i + " and " + j + " less than required 2.5 nm apart!");
 							conflictAlert.play();
 							score -= 0.0005;
 						}
 					} else if (separationDistPx < 2.75 * nm_to_px && separationAlt <= 900) {
 						stroke(255, 0, 0);
-						console.log(i + " and " + j + " less than required 2.75 nm apart!");
 						conflictAlert.play();
 						score -= 0.0005;
 					}
@@ -679,13 +677,11 @@ void displayRings(i) {
 					if (aircrafts[j].loc && aircrafts[j].ilsDist <= 10 * nm_to_px) {
 						if (separationDistPx < 2.75 * nm_to_px && separationAlt <= 900) {
 							stroke(255, 0, 0);
-							console.log(i + " and " + j + " less than required 2.75 nm apart!");
 							conflictAlert.play();
 							score -= 0.0005;
 						}
 					} else if (separationDistPx < 3 * nm_to_px && separationAlt <= 900) {
 						stroke(255, 0, 0);
-						console.log(i + " and " + j + " less than required 3 nm apart!");
 						conflictAlert.play();
 						score -= 0.0005;
 					}
