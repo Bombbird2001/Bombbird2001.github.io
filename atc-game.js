@@ -1672,7 +1672,7 @@ void draw() {
 	if (updateTime >= 50) {
 		updateTime -= 50;
 		for (var i = 0; i < aircraftsNo; i++) {
-			text("Updated!", 140, 565);
+			//text("Updated!", 140, 565);
 			aircrafts[i].radarPos[0] = aircrafts[i].pos[0];
 			aircrafts[i].radarPos[1] = aircrafts[i].pos[1];
 			aircrafts[i].radarPos[2] = aircrafts[i].pos[2];
