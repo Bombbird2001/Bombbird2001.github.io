@@ -8,7 +8,9 @@ function alertFunction() {
 }
 
 function clearStorage() {
-	window.localStorage.clear();
-	console.log("Local storage cleared!");
-	alert("Local storage for this website has been cleared! Reload this page for changes to take effect!");
+	if (confirm("Are you sure you want to clear local storage for this website?")) {
+		window.localStorage.clear();
+		console.log("Local storage cleared!");
+		alert("Local storage for this website has been cleared! Reload this page for changes to take effect!");
+	}
 }

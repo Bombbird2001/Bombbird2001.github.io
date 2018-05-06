@@ -8,6 +8,14 @@ h1 {
   text-align: center;
 }
 
+h2 {
+	color: green;
+}
+
+h3 {
+	color: indigo;
+}
+
 p {
   color: black;
 }
